@@ -1,0 +1,23 @@
+.person {
+  width: 200px;
+  margin: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.person img {
+  max-width: 100%;
+  display: block;
+}
+
+.person-info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 246);
+  color: rgb(148, 143, 173);
+}
+
+.person-info-card span {
+  margin: 10px;
+}

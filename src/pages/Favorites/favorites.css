@@ -1,0 +1,11 @@
+.favorites-row {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+}
+
+.favorites-card {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+}

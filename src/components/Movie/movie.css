@@ -1,0 +1,47 @@
+.movie {
+  width: 240px;
+  overflow: hidden;
+  margin: 1rem;
+  position: relative;
+}
+
+.movie img {
+  max-width: 100%;
+  display: block;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(243, 243, 246);
+  color: rgb(148, 143, 173);
+}
+
+.movie-card span {
+  margin: 10px;
+}
+
+/* .movie-over {
+  height: 100%;
+  background-color: #000;
+  opacity: 0.5;
+  cursor: pointer;
+  color: #000;
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateX(100%);
+  transition: all 0.4s ease-out;
+}
+
+.movie:hover .movie-over {
+  transform: translateX(0%);
+} 
+
+.movie:hover img {
+  transform: scale(1.2);
+  transition: all 0.4s ease-in;
+}*/

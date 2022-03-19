@@ -1,0 +1,19 @@
+.error-container {
+  width: 100%;
+  height: 100vh;
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.error-message h1 {
+  font-size: 60px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.error-message p {
+  color: #948fad;
+  font-size: 18px;
+}

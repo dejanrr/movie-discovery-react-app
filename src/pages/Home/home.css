@@ -1,0 +1,215 @@
+.homepage {
+  font-family: "Maven Pro", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  background-image: linear-gradient(#3f51b5, #5845b3);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+header div {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.header-text h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.header-text p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.header-btn {
+  align-items: center;
+}
+
+.header-btn button {
+  font-weight: 600;
+  width: 120px;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  white-space: pre;
+  border-radius: 40px;
+  background-color: rgb(35, 240, 199);
+  color: rgb(14, 18, 61);
+
+  transition: all 0.35s ease-in-out;
+  cursor: pointer;
+}
+
+.header-btn button:hover {
+  background-color: rgb(254, 198, 1);
+  transform: scale(1.2);
+}
+
+.steps-section {
+  height: 50vh;
+  background-color: #fff;
+}
+
+.homepage-rows-section {
+  background-color: #f3f3f6;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.top-picks-section-headings {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading {
+  font-size: 60px;
+  color: #5845b3;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.subheading {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.section-heading {
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.popular-movies-row {
+  width: 1400px;
+  background-color: #fff;
+  margin-top: 50px;
+  box-shadow: 1px 1px 1px #aaa;
+}
+
+.popular-movies-row-header {
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.movies-row-header-title {
+  font-size: 22px;
+  margin: 2% 2% 2% 2%;
+}
+
+.header-view-all {
+  font-size: 22px;
+  margin: 2%;
+  cursor: pointer;
+}
+
+.homepage-movies-array {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+link {
+  color: #000;
+}
+
+.top-rated-movies-section {
+  width: 1400px;
+  height: 550px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.chart-box {
+  width: 420px;
+  height: 100%;
+  order: 2;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #aaa;
+}
+
+.movie-box {
+  width: 930px;
+  height: 100%;
+  order: 1;
+  margin-right: 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #aaa;
+}
+
+.movies-chart-list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5%;
+  list-style: none;
+  color: #948fad;
+}
+
+.actors-chart-box {
+  width: 420px;
+  height: 100%;
+  order: 1;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #aaa;
+}
+
+.actors-row {
+  width: 930px;
+  height: 100%;
+  order: 2;
+  margin-left: 50px;
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 #aaa;
+}
+
+.now-playing-movies-section {
+  width: 100%;
+  background-image: linear-gradient(#3f51b5, #5845b3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.now-playing-movies-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 80px;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .popular-movies-array {
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0 5% 0;
+  }
+}
